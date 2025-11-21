@@ -1,6 +1,8 @@
 Week 2 Folder Structure
 
+
 Week 2/
+
     Files/
     
     Week2_Practical_Application.pdf
