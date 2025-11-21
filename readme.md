@@ -1,6 +1,4 @@
 Week 2 Folder Structure
-
-
 Week 2/
 
     Files/
