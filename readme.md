@@ -1,6 +1,6 @@
-Week 2/
+Week 2
 │
-├── Files/
+├── Files
 │   ├── Week2_Practical_Application.pdf
 │   ├── Week2_Theoretical_Knowledge.pdf
 │   ├── Metasploitable2_OpenVAS_Scan_Report.pdf
