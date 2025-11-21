@@ -1,72 +1,29 @@
+Description of Files
 
-📘 Week 2 VAPT – Workflow Documentation
-1. Vulnerability Scanning Lab
+1. Week2_Practical_Application.pdf
+   Contains all practical tasks for Week 2:
+   - Vulnerability scanning (Nmap, OpenVAS, Nikto)
+   - Reconnaissance (Shodan, Maltego)
+   - Exploitation (Metasploit, sqlmap)
+   - Post-exploitation steps
+   - Full VAPT cycle simulation
 
-Tools: Nmap, OpenVAS, Nikto
-Steps:
+2. Week2_Theoretical_Knowledge.pdf
+   Covers the theoretical concepts:
+   - Vulnerability scanning techniques
+   - Penetration testing methodologies
+   - Exploit development basics
 
-Scan target using nmap -sV <IP>
+3. Metasploitable2_OpenVAS_Scan_Report.pdf
+   Exported vulnerability scan report from OpenVAS for the Metasploitable2 VM.
 
-Run OpenVAS Full Scan
+4. CVSS_Rating_Sheet.pdf
+   Prioritization sheet including:
+   - Vulnerability name
+   - CVSS v3/v4 score
+   - Severity rating
+   - Assigned priority
 
-Export report
+Purpose
 
-Prioritize using CVSS
-
-Document findings in PDF
-
-2. Reconnaissance Practice
-
-Tools: Maltego, Shodan, Wappalyzer
-Steps:
-
-Perform WHOIS lookup
-
-Enumerate subdomains (Sublist3r)
-
-Identify tech stack
-
-Log findings in a Slack-friendly table
-
-Write a 50-word summary
-
-3. Exploitation Lab
-
-Tools: Metasploit, Burp, sqlmap
-Steps:
-
-Scan services with Nmap
-
-Use Tomcat Manager RCE (WAR upload)
-
-Get reverse shell
-
-Validate with Exploit-DB
-
-Document exploit table
-
-4. Post-Exploitation Practice
-
-Tools: Meterpreter, sha256sum
-Steps:
-
-Privilege escalation
-
-Hash file artifacts
-
-Document evidence table
-
-5. Capstone Project: Full VAPT
-
-Tools: DVWA, sqlmap, OpenVAS
-Steps:
-
-Run SQL Injection with sqlmap
-
-Validate XSS
-
-Document OpenVAS alerts
-
-Write 200-word PTES report
-
-Add 100-word management summary
+This repository contains all Week 2 deliverables for the VAPT training program, including documentation, reports, workflows, and practical outputs.
